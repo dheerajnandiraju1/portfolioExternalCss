@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: #242B30;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #1c2226;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+header p a {
+    color: #a3bffa;
+    text-decoration: none;
+}
+
+header p a:hover {
+    color: #81e6d9;
+}
+
+/* Education Section */
+.education {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.education h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #2e363c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.card p:last-child {
+    font-size: 14px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px;
+    background-color: #2e363c;
+}
+
+.projects h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 280px;
+    background-color: #39434a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.project-card p {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+/* Work Experience Section */
+.work-experience {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.work-experience h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Workshops Section */
+.workshops {
+    padding: 40px;
+    background-color: #2e363c;
+}
+
+.workshops h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.workshop-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.workshop-card {
+    background-color: #39434a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.workshop-card:hover {
+    transform: scale(1.02);
+}
+
+.workshop-card h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.workshop-card p {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+/* Certificates & Achievements Section */
+.certificates {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.certificates h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificates ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certificates li {
+    background-color: #2e363c;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.certificates li:hover {
+    background-color: #39434a;
+}
+
+.certificates li p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Skills Section */
+.skills {
+    padding: 40px;
+    background-color: #2e363c;
+}
+
+.skills h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-container p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1c2226;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
